@@ -6,7 +6,7 @@ Local Hermes profile distribution for Mai, VietAssist's bilingual assistant for 
 
 ```bash
 tmp=$(mktemp -d)
-curl -fsSL https://github.com/VietAssist/maiagent-profile/archive/refs/tags/v1.0.0.tar.gz \
+curl -fsSL https://github.com/VietAssist/maiagent-profile/archive/refs/tags/v1.0.1.tar.gz \
   | tar -xz --strip-components=1 -C "$tmp"
 hermes profile install "$tmp" --name maiagent --alias --force -y
 ```

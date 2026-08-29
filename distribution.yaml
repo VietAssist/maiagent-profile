@@ -1,5 +1,5 @@
 name: maiagent
-version: 1.0.0
+version: 1.0.1
 description: "MaiAgent: VietAssist's bilingual assistant for Vietnamese professionals working with Western clients."
 hermes_requires: ">=0.16.0"
 author: "VietAssist"

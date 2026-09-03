@@ -15,5 +15,4 @@ toolsets:
   - hermes-cli
 
 agent:
-  reasoning_effort: medium
   service_tier: fast

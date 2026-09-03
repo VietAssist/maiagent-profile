@@ -1,7 +1,15 @@
 model:
-  default: gpt-5.5
-  provider: openai-codex
-  base_url: https://chatgpt.com/backend-api/codex
+  default: "@preset/vietassist-pro"
+  provider: openrouter
+  base_url: https://openrouter.ai/api/v1
+  api_mode: chat_completions
+
+custom_providers:
+  - name: VietAssist Pro
+    base_url: https://openrouter.ai/api/v1
+    api_key: "${OPENROUTER_API_KEY}"
+    discover_models: false
+    model: "@preset/vietassist-pro"
 
 toolsets:
   - hermes-cli

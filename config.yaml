@@ -14,5 +14,9 @@ custom_providers:
 toolsets:
   - hermes-cli
 
+plugins:
+  enabled:
+    - clawhost-connect-chatgpt
+
 agent:
   service_tier: fast

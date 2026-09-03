@@ -1,5 +1,5 @@
 name: maiagent
-version: 1.0.4
+version: 1.0.5
 description: "MaiAgent: VietAssist's bilingual assistant for Vietnamese professionals working with Western clients."
 hermes_requires: ">=0.16.0"
 author: "VietAssist"
@@ -7,5 +7,6 @@ license: "Proprietary"
 distribution_owned:
   - SOUL.md
   - config.yaml
+  - plugins
   - skills
   - distribution.yaml

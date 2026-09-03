@@ -1,6 +1,6 @@
 model:
   default: "@preset/vietassist-pro"
-  provider: openrouter
+  provider: custom:vietassist-pro
   base_url: https://openrouter.ai/api/v1
   api_mode: chat_completions
 

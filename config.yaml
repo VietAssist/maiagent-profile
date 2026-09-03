@@ -11,8 +11,18 @@ custom_providers:
     discover_models: false
     model: "@preset/vietassist-pro"
 
-toolsets:
-  - hermes-cli
+platform_toolsets:
+  cli:
+    - hermes-cli
+  telegram:
+    - hermes-telegram
+
+browser:
+  backend: "off"
+  cloud_provider: local
+  engine: auto
+  allow_private_urls: false
+  use_real_profile: false
 
 plugins:
   enabled:
